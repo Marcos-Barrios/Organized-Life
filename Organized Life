@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organized Life</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #e0f7f9; /* Color turquesa claro */
+            color: #000;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            border-bottom: 1px solid #000;
+            background-color: #e0f7f9;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            margin: 0 auto 20px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            border-bottom: 2px solid #000;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            padding: 10px;
+            border-top: 1px solid #000;
+            margin-top: 20px;
+        }
+        .slogan {
+            font-style: italic;
+            font-size: 24px;
+            color: #000;
+            margin-top: 10px;
+            border: 2px solid #fff;
+            padding: 10px;
+            display: inline-block;
+            background-color: #e0f7f9;
+        }
+        .description {
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #000;
+        }
+        .whatsapp-link {
+            background-color: #25d366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .whatsapp-link:hover {
+            background-color: #1ebe5e;
+        }
+        .product-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h3 {
+            color: #000;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #000;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Organized Life</h1>
+        <p class="slogan">Vida organizada con estilo</p>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">WhatsApp</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section id="inicio">
+            <h2>Bienvenidos a Organized Life</h2>
+            <p class="description">En Organized Life, ofrecemos una variedad de elegantes organizadores diseñados específicamente para maquillaje, skincare, pinta uñas, labiales y mucho más. Nuestros productos combinan funcionalidad con estilo, asegurando que cada artículo que poseas tenga un lugar especial en tu espacio.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="product-gallery">
+                <div class="product">
+                    <img src="https://via.placeholder.com/200x250.png?text=Organizador+1" alt="Organizador 1">
+                    <h3>Organizador de Maquillaje</h3>
+                    <p>$29.99</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/200x250.png?text=Organizador+2" alt="Organizador 2">
+                    <h3>Organizador de Skincare</h3>
+                    <p>$39.99</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/200x250.png?text=Organizador+3" alt="Organizador 3">
+                    <h3>Organizador para Labiales</h3>
+                    <p>$19.99</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros a través de WhatsApp:</p>
+            <a href="https://wa.me/5950981723557" class="whatsapp-link" target="_blank">Enviar Mensaje</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Organized Life. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
